@@ -26,7 +26,6 @@ class UserController extends Controller
                 'status' => 'error',
                 'data' => 'Create error'
             ];
-
             return response()->json($data);
         }
 
